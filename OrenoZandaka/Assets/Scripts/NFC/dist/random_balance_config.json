@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "uids": [
+    "010101128F21C700"
+  ],
+  "min": 0,
+  "max": 20000,
+  "cooldown_seconds": 50
+}

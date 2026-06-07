@@ -1,0 +1,15 @@
+services:
+  card-pdf:
+    build:
+      context: .
+    image: card-pdf:local
+    volumes:
+      - .:/work
+    ports:
+      - "8080:8080"
+    command:
+      - --serve
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8080"

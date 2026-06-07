@@ -1,0 +1,26 @@
+captured_at: 2026-04-01T00:23:28
+tag_type: nfc.tag.tt3_sony.FelicaMobile
+tag_repr: Type3Tag 'FeliCa Mobile 3.0' ID=013918C194C7E6F5 PMM=01168B868FBECBFF SYS=0003
+tag_id: 013918C194C7E6F5
+transport: felica
+pmm: 01168B868FBECBFF
+
+=== SYSTEM CODES ===
+0x0003
+
+=== SERVICES ===
+system 0x0003: 0x0048, 0x004A, 0x0088, 0x008B, 0x00C8, 0x00CA, 0x00CC, 0x00CE, 0x00D0, 0x00D2, 0x00D4, 0x00D6, 0x0810, 0x0812, 0x0816, 0x0850, 0x0852, 0x0856, 0x0890, 0x0892, 0x0896, 0x08C8, 0x08CA, 0x090A, 0x090C, 0x090F, 0x1008, 0x100A, 0x1048, 0x104A, 0x108C, 0x108F, 0x10C8, 0x10CB, 0x1108, 0x110A, 0x1148, 0x114A, 0x1848, 0x184B, 0x1CC8, 0x1CCA, 0x1D08, 0x1D0A, 0x1F08, 0x1F0A, 0x1F0B, 0x2308, 0x230A, 0x2348, 0x234B, 0x2388, 0x238B, 0x23C8, 0x23CB
+
+=== PROBE TRANSIT ===
+activate 0x0003: ok
+0x008B[0]: 00 00 00 00 00 00 00 00 20 00 00 4C 00 00 00 26 |........ ..L...&|
+parsed_balance_yen: 76
+0x090F[0]: 16 01 00 02 33 21 03 06 03 04 4C 00 00 05 8A 00 |....3!....L.....|
+0x090F[1]: 16 01 00 02 33 21 E3 7E E3 75 DE 00 00 05 88 00 |....3!.~.u......|
+0x090F[2]: 16 01 00 02 32 5C E4 50 E3 32 AF 01 00 05 86 00 |....2\.P.2......|
+
+=== PROBE STUDENT ===
+student service not found
+
+=== FINAL JUDGEMENT ===
+priority: transit_card

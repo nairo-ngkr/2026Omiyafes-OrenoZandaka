@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0397a1e669a7d1548be212edc8620ae2, type: 3}
+  m_Name: 03PekaPika
+  m_EditorClassIdentifier: 
+  monsterName: "\u30DA\u30AB\uFF06\u30D4\u30AB"
+  minBalance: 900
+  maxBalance: 1499
+  bgPrefab: {fileID: 991248271040136833, guid: dc59a1905bd91814ead84f31bc69d040, type: 3}
+  videoClip: {fileID: 32900000, guid: 341fc33439bc56140866620c900d8a96, type: 3}
+  monsterBgm: {fileID: 8300000, guid: 98800dca50b12d84db20d2f70628a98f, type: 3}

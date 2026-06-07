@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0397a1e669a7d1548be212edc8620ae2, type: 3}
+  m_Name: 05Nurunurun
+  m_EditorClassIdentifier: 
+  monsterName: "\u306C\u308B\u306C\u308B\u3093"
+  minBalance: 3000
+  maxBalance: 4999
+  bgPrefab: {fileID: 1895912370604856734, guid: 8605003e7b61f4a40b4d849dc0a3315c, type: 3}
+  videoClip: {fileID: 32900000, guid: 0ea690bc4b206a547b55d17892096240, type: 3}
+  monsterBgm: {fileID: 8300000, guid: 50f93acddf2e88144ac0b755ce550d75, type: 3}

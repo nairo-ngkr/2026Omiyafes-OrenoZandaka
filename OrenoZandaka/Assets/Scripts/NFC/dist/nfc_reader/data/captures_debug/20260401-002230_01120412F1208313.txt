@@ -1,0 +1,24 @@
+captured_at: 2026-04-01T00:22:30
+tag_type: nfc.tag.tt3_sony.FelicaStandard
+tag_repr: Type3Tag 'FeliCa Standard (RC-SA00/1)' ID=01120412F1208313 PMM=033242828247AAFF SYS=8277
+tag_id: 01120412F1208313
+transport: felica
+pmm: 033242828247AAFF
+
+=== SYSTEM CODES ===
+0x8277
+
+=== SERVICES ===
+system 0x8277: 0x0108, 0x010B, 0x0209, 0x0248, 0x024B
+
+=== PROBE TRANSIT ===
+activate 0x0003: unrecoverable timeout error
+
+=== PROBE STUDENT ===
+activate 0x8277: ok
+0x010B[0]: 30 30 32 42 52 32 33 30 32 34 30 30 30 30 30 30 |002BR23024000000|
+0x010B[1]: 32 30 32 33 30 34 30 31 32 30 32 37 30 33 33 31 |2023040120270331|
+parsed_student_id: BR23024
+
+=== FINAL JUDGEMENT ===
+priority: student_card

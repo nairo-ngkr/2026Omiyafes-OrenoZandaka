@@ -1,0 +1,25 @@
+captured_at: 2026-03-31T23:30:54
+tag_type: nfc.tag.tt4.Type4ATag
+tag_repr: Type4ATag MIU=253 FWT=0.038664
+tag_id: 0823999D
+transport: type4a
+
+=== TAG DUMP ===
+
+=== PRIORITY RESULT ===
+mode: mobile-or-type4a
+ndef: unavailable
+apdu_probes:
+  NDEF-v2: error (file or application not found)
+  NDEF-v1: error (file or application not found)
+  PPSE: ok (6F2D840E325041592E5359532E4444463031A51BBF0C1861164F07A0000000031010500B5669736120437265646974)
+  PSE: error (file or application not found)
+balance: unavailable via FeliCa service read on this transport
+
+=== DIRECT SERVICE READS ===
+Service 0x008B (Transit balance)
+  skipped: non-FeliCa tag
+Service 0x010B (Student ID)
+  skipped: non-FeliCa tag
+Service 0x090F (Transit history)
+  skipped: non-FeliCa tag

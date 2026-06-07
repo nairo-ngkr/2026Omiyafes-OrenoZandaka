@@ -1,0 +1,19 @@
+captured_at: 2026-03-31T22:54:43
+tag_type: nfc.tag.tt4.Type4ATag
+tag_repr: Type4ATag MIU=253 FWT=0.038664
+tag_id: 08BED441
+transport: type4a
+
+=== TAG DUMP ===
+
+=== PRIORITY RESULT ===
+mode: unsupported
+reason: type4a tags do not expose FeliCa service codes
+
+=== DIRECT SERVICE READS ===
+Service 0x008B (Transit balance)
+  skipped: non-FeliCa tag
+Service 0x010B (Student ID)
+  skipped: non-FeliCa tag
+Service 0x090F (Transit history)
+  skipped: non-FeliCa tag

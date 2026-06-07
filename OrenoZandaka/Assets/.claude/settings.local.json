@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"d:\\\\ShibaLab\\\\UnitynoProducts\\\\2026OomiyaFes\\\\Assets\\\\Scripts\" -Recurse -Filter \"*.cs\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(cd /mnt/d/ShibaLab/UnitynoProducts/2026OomiyaFes/Assets/Plugins && strings PCSC.dll | grep -i \"ICardReader\\\\|Protocol\\\\|Transmit\\\\|interface\" | head -60)",
+      "Read(//mnt/d/ShibaLab/UnitynoProducts/2026OomiyaFes/Assets/**)"
+    ]
+  }
+}

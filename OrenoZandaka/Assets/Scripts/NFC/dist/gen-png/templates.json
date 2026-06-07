@@ -1,0 +1,989 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "slime",
+      "label": "スラちゃん",
+      "figma_node": "150:7",
+      "colors": {
+        "background": "#d9d9d9",
+        "frame_border": "#9f9f9f",
+        "arrow": "#888888",
+        "text": "#000000",
+        "hp_fill": "#d9d9d9",
+        "hp_border": "#000000"
+      },
+      "assets": {
+        "background": "assets/templates/slime/background.png",
+        "character": "assets/templates/slime/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer.png",
+        "badge_character": "assets/common/badge_character.png"
+      },
+      "boxes": {
+        "image": [
+          33,
+          118,
+          985,
+          554
+        ],
+        "character": [
+          292,
+          236,
+          489,
+          345
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          250,
+          686
+        ],
+        "name_width": 551,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            94,
+            939
+          ],
+          "phrase": [
+            33,
+            1120
+          ],
+          "habitat": [
+            28,
+            1300
+          ]
+        },
+        "skill_font_size": 70,
+        "phrase_font_size": 70,
+        "habitat_font_size": 70,
+        "body_xy": [
+          512,
+          977
+        ],
+        "body_width": 515,
+        "body_font_size": 48,
+        "body_line_height": 70,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          28,
+          1379,
+          110,
+          110
+        ]
+      },
+      "defaults": {
+        "name": "スラちゃん",
+        "attribute": "ぞくせい",
+        "skill": "えがお",
+        "phrase": "「○○ぽよ」",
+        "habitat": "もり・へいち",
+        "description": "せんとうちゅう でも カメラ目線を わすれない。\nなぜか 集合写真には 必ず 写っている。",
+        "hp": "30"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 12,
+        "habitat": 7,
+        "hp": 4,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 52
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "patasan",
+      "label": "ぱたさん",
+      "figma_node": "162:218",
+      "colors": {
+        "background": "#c3b8ff",
+        "frame_border": "#7e67ff",
+        "arrow": "#7e67ff",
+        "text": "#000000",
+        "hp_fill": "#c3b8ff",
+        "hp_border": "#000000"
+      },
+      "assets": {
+        "background": "assets/templates/patasan/background.png",
+        "character": "assets/templates/patasan/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer.png",
+        "badge_character": "assets/common/badge_character.png"
+      },
+      "boxes": {
+        "image": [
+          44,
+          124,
+          964,
+          542
+        ],
+        "character": [
+          158,
+          114,
+          771,
+          482
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          312,
+          686
+        ],
+        "name_width": 427,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            28,
+            936
+          ],
+          "phrase": [
+            14,
+            1116
+          ],
+          "habitat": [
+            62,
+            1300
+          ]
+        },
+        "skill_font_size": 40,
+        "skill_line_height": 38,
+        "phrase_font_size": 40,
+        "phrase_line_height": 48,
+        "habitat_font_size": 75,
+        "body_xy": [
+          510,
+          974
+        ],
+        "body_width": 515,
+        "body_font_size": 48,
+        "body_line_height": 73,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          28,
+          1379,
+          110,
+          110
+        ]
+      },
+      "defaults": {
+        "name": "ぱたさん",
+        "attribute": "ぞくせい",
+        "skill": "くうちゅうひこう\n（2びょう）",
+        "phrase": "「……よゆうだった。」\n（あせだく）」",
+        "habitat": "てんくう",
+        "description": "いちおう飛べる。\nただし 本人にも 原理がわかっていない。\n半分 ねながら飛んでいる。",
+        "hp": "2000"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 14,
+        "phrase": 18,
+        "habitat": 7,
+        "hp": 4,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 52
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "gonta",
+      "label": "ごんた",
+      "figma_node": "162:339",
+      "colors": {
+        "background": "#b71d1d",
+        "frame_border": "#860000",
+        "arrow": "#8b0000",
+        "text": "#ffffff",
+        "hp_fill": "#b71d1d",
+        "hp_border": "#ffffff"
+      },
+      "assets": {
+        "background": "assets/templates/gonta/background.png",
+        "character": "assets/templates/gonta/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer_white.png",
+        "badge_image": "assets/common/suica.png"
+      },
+      "boxes": {
+        "image": [
+          43,
+          122,
+          966,
+          543
+        ],
+        "character": [
+          7,
+          55,
+          1081,
+          676
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          364,
+          686
+        ],
+        "name_width": 323,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            19,
+            939
+          ],
+          "phrase": [
+            7,
+            1125
+          ],
+          "habitat": [
+            62,
+            1300
+          ]
+        },
+        "skill_font_size": 57,
+        "skill_line_height": 66,
+        "phrase_font_size": 55,
+        "phrase_line_height": 58,
+        "habitat_font_size": 75,
+        "body_xy": [
+          484,
+          977
+        ],
+        "body_width": 547,
+        "body_font_size": 48,
+        "body_line_height": 74,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          39,
+          1390,
+          88,
+          88
+        ]
+      },
+      "defaults": {
+        "name": "ごんた",
+        "attribute": "ぞくせい",
+        "skill": "きあいブレス",
+        "phrase": "「いまのみた！？」",
+        "habitat": "わくせい",
+        "description": "一人前の ドラゴンになるため、\n毎日全力で 火をふく 練習をしている。 ほめられると 火力が少し上がる。",
+        "hp": "15000"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 12,
+        "habitat": 7,
+        "hp": 5,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 52
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "mojaokun",
+      "label": "もじゃおくん",
+      "figma_node": "157:39",
+      "colors": {
+        "background": "#ffe1c9",
+        "frame_border": "#ffae6c",
+        "arrow": "#ffae6c",
+        "text": "#000000",
+        "hp_fill": "#ffe1c9",
+        "hp_border": "#000000"
+      },
+      "assets": {
+        "background": "assets/templates/mojaokun/background.png",
+        "character": "assets/templates/mojaokun/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer.png",
+        "badge_character": "assets/common/badge_character.png"
+      },
+      "boxes": {
+        "image": [
+          45,
+          130,
+          961,
+          541
+        ],
+        "character": [
+          -27,
+          19,
+          1106,
+          691
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          203,
+          686
+        ],
+        "name_width": 645,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            21,
+            939
+          ],
+          "phrase": [
+            37,
+            1110
+          ],
+          "habitat": [
+            83,
+            1304
+          ]
+        },
+        "skill_font_size": 57,
+        "skill_line_height": 66,
+        "phrase_font_size": 45,
+        "phrase_line_height": 48,
+        "habitat_font_size": 75,
+        "body_xy": [
+          497,
+          976
+        ],
+        "body_width": 539,
+        "body_font_size": 48,
+        "body_line_height": 55,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          28,
+          1379,
+          110,
+          110
+        ]
+      },
+      "defaults": {
+        "name": "もじゃおくん",
+        "attribute": "ぞくせい",
+        "skill": "ころがりついせき",
+        "phrase": "「きょうもあいつ\nころがってる...」",
+        "habitat": "さばく",
+        "description": "ふだんは 全てに イライラ している。 でも 丸くて 転がる物体を\n見ると、 りせいを失う。 石でも 追う。 たるでも 追う。\n一回 タイヤを 追いかけて 3日帰って こなかった ことがある。",
+        "hp": "500"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 18,
+        "habitat": 7,
+        "hp": 4,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 94
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "nurunurun",
+      "label": "ぬるぬるん",
+      "figma_node": "162:275",
+      "colors": {
+        "background": "#008ae0",
+        "frame_border": "#0063a1",
+        "arrow": "#0063a1",
+        "text": "#ffffff",
+        "hp_fill": "#008ae0",
+        "hp_border": "#ffffff"
+      },
+      "assets": {
+        "background": "assets/templates/nurunurun/background.png",
+        "character": "assets/templates/nurunurun/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer_white.png",
+        "badge_image": "assets/common/suica.png"
+      },
+      "boxes": {
+        "image": [
+          37,
+          119,
+          977,
+          550
+        ],
+        "character": [
+          90,
+          156,
+          888,
+          555
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          254,
+          686
+        ],
+        "name_width": 543,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            20,
+            938
+          ],
+          "phrase": [
+            11,
+            1117
+          ],
+          "habitat": [
+            49,
+            1295
+          ]
+        },
+        "skill_font_size": 64,
+        "skill_line_height": 66,
+        "phrase_font_size": 35,
+        "phrase_line_height": 39,
+        "habitat_font_size": 75,
+        "body_xy": [
+          505,
+          961
+        ],
+        "body_width": 576,
+        "body_font_size": 48,
+        "body_line_height": 71,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          39,
+          1390,
+          88,
+          88
+        ]
+      },
+      "defaults": {
+        "name": "ぬるぬるん",
+        "attribute": "ぞくせい",
+        "skill": "ぬるぬるいどう",
+        "phrase": "「……いまのさかな\n　はやかった。」",
+        "habitat": "かいちゅう",
+        "description": "海の底を ぬるぬる いどうする\nなぞ生物。 近くを泳ぐ魚を\nずっと 目で追っている。\nつかまえたいのか、友達になりたい\nのかは不明。",
+        "hp": "4000"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 17,
+        "habitat": 7,
+        "hp": 4,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 62
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "kukuros",
+      "label": "ククロス",
+      "figma_node": "162:453",
+      "colors": {
+        "background": "#a033c4",
+        "frame_border": "#540070",
+        "arrow": "#540070",
+        "text": "#ffffff",
+        "hp_fill": "#a033c4",
+        "hp_border": "#ffffff"
+      },
+      "assets": {
+        "background": "assets/templates/kukuros/background.png",
+        "character": "assets/templates/kukuros/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer_white.png",
+        "badge_image": "assets/common/suica.png"
+      },
+      "boxes": {
+        "image": [
+          33,
+          122,
+          976,
+          549
+        ],
+        "character": [
+          133,
+          139,
+          876,
+          547
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          305,
+          686
+        ],
+        "name_width": 441,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            20,
+            934
+          ],
+          "phrase": [
+            3,
+            1129
+          ],
+          "habitat": [
+            20,
+            1300
+          ]
+        },
+        "skill_font_size": 57,
+        "skill_line_height": 66,
+        "phrase_font_size": 45,
+        "phrase_line_height": 58,
+        "habitat_font_size": 75,
+        "body_xy": [
+          505,
+          984
+        ],
+        "body_width": 540,
+        "body_font_size": 48,
+        "body_line_height": 74,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          39,
+          1390,
+          88,
+          88
+        ]
+      },
+      "defaults": {
+        "name": "ククロス",
+        "attribute": "ぞくせい",
+        "skill": "なんでもそしゃく",
+        "phrase": "「たべものだったか...?」",
+        "habitat": "ネオンタウン",
+        "description": "見なれない物を 見つけると、 とり\nあえず持つ。\nわからなかったら ふる。\nそれでもわからなかったら 食べる。",
+        "hp": "6000"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 14,
+        "habitat": 7,
+        "hp": 4,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 52
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "peka_pika",
+      "label": "ペカ＆ピカ",
+      "figma_node": "157:139",
+      "colors": {
+        "background": "#f2c1e8",
+        "frame_border": "#f36fff",
+        "arrow": "#e85cff",
+        "text": "#000000",
+        "hp_fill": "#f2c1e8",
+        "hp_border": "#000000"
+      },
+      "assets": {
+        "background": "assets/templates/peka_pika/background.png",
+        "character": "assets/templates/peka_pika/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer.png",
+        "badge_character": "assets/common/badge_character.png"
+      },
+      "boxes": {
+        "image": [
+          42,
+          127,
+          968,
+          545
+        ],
+        "character": [
+          -29,
+          70,
+          1125,
+          703
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          236,
+          686
+        ],
+        "name_width": 579,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            22,
+            939
+          ],
+          "phrase": [
+            11,
+            1131
+          ],
+          "habitat": [
+            62,
+            1300
+          ]
+        },
+        "skill_font_size": 57,
+        "skill_line_height": 66,
+        "phrase_font_size": 48,
+        "phrase_line_height": 58,
+        "habitat_font_size": 75,
+        "body_xy": [
+          481,
+          980
+        ],
+        "body_width": 561,
+        "body_font_size": 48,
+        "body_line_height": 74,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          28,
+          1379,
+          110,
+          110
+        ]
+      },
+      "defaults": {
+        "name": "ペカ＆ピカ",
+        "attribute": "ぞくせい",
+        "skill": "きらきらさがし",
+        "phrase": "「あげる！！！」",
+        "habitat": "わくせい",
+        "description": "光るものが 大好きな ふたご。\n今日も 道で 拾ってきた ほうせきを ほこらしげに 差し出してくる。\nでも 帰り道で 半分落としてる。",
+        "hp": "1000"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 12,
+        "habitat": 7,
+        "hp": 4,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 65
+      },
+      "show_badge": true,
+      "badge_variant": "normal"
+    },
+    {
+      "id": "shibazou",
+      "label": "しばゾウさま",
+      "figma_node": "162:396",
+      "colors": {
+        "background": "#ead745",
+        "frame_border": "#ffd400",
+        "arrow": "#ffd400",
+        "text": "#ffffff",
+        "hp_fill": null,
+        "hp_border": "#ffffff"
+      },
+      "assets": {
+        "background": "assets/templates/shibazou/background.png",
+        "character": "assets/templates/shibazou/character.png",
+        "event_logo": "assets/common/logo_event.png",
+        "footer_logo": "assets/common/logo_footer_white.png",
+        "badge_image": "assets/common/suica_gold.png",
+        "page_background": "assets/templates/shibazou/page_background.png"
+      },
+      "boxes": {
+        "image": [
+          41,
+          126,
+          966,
+          544
+        ],
+        "character": [
+          44,
+          38,
+          934,
+          660
+        ]
+      },
+      "layout": {
+        "label_xy": {
+          "skill_label": [
+            20,
+            877
+          ],
+          "phrase_label": [
+            20,
+            1059
+          ],
+          "habitat_label": [
+            20,
+            1241
+          ]
+        },
+        "name_xy": [
+          205,
+          686
+        ],
+        "name_width": 642,
+        "attribute_xy": [
+          505,
+          863
+        ],
+        "value_xy": {
+          "skill": [
+            27,
+            939
+          ],
+          "phrase": [
+            9,
+            1112
+          ],
+          "habitat": [
+            26,
+            1303
+          ]
+        },
+        "skill_font_size": 57,
+        "skill_line_height": 66,
+        "phrase_font_size": 45,
+        "phrase_line_height": 48,
+        "habitat_font_size": 47,
+        "habitat_line_height": 36,
+        "body_xy": [
+          510,
+          977
+        ],
+        "body_width": 515,
+        "body_font_size": 48,
+        "body_line_height": 75,
+        "hp_xy": [
+          505,
+          1325
+        ],
+        "hp_value_xy": [
+          645,
+          1325
+        ],
+        "hp_value_width": 341,
+        "footer_box": [
+          39,
+          1390,
+          88,
+          88
+        ]
+      },
+      "defaults": {
+        "name": "しばゾウさま",
+        "attribute": "ぞくせい",
+        "skill": "あがめられる",
+        "phrase": "「ぶいん\n　　ぼしゅうちゅう」",
+        "habitat": "しんでん\n（ShibaLabそうこ）",
+        "description": "いつも 倉庫で ねむっている。 学園祭の時だけ あらわれる、あがめられるべき そんざい。 頭をなでて もらえると うれしい。",
+        "hp": "7777"
+      },
+      "limits": {
+        "name": 6,
+        "attribute": 4,
+        "skill": 8,
+        "phrase": 14,
+        "habitat": 17,
+        "hp": 5,
+        "skill_label": 5,
+        "phrase_label": 5,
+        "habitat_label": 5,
+        "description": 62
+      },
+      "show_badge": true,
+      "badge_variant": "gold"
+    }
+  ]
+}

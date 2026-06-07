@@ -1,0 +1,32 @@
+captured_at: 2026-04-01T00:04:13
+tag_type: nfc.tag.tt3.Type3Tag
+tag_repr: Type3Tag ID=0112021249227937 PMM=053143454682B7FF SYS=0003
+tag_id: 0112021249227937
+transport: felica
+
+=== TAG DUMP ===
+This is not an NFC Forum Tag.
+
+=== SYSTEM / SERVICE DISCOVERY ===
+System 0x0003
+  services: 0x0048, 0x004A, 0x0088, 0x008B, 0x00C8, 0x00CA, 0x00CC, 0x00CE, 0x00D0, 0x00D2, 0x00D4, 0x00D6, 0x0810, 0x0812, 0x0816, 0x0850, 0x0852, 0x0856, 0x0890, 0x0892, 0x0896, 0x08C8, 0x08CA, 0x090A, 0x090C, 0x090F, 0x1008, 0x100A, 0x1048, 0x104A, 0x108C, 0x108F, 0x10C8, 0x10CB, 0x1108, 0x110A, 0x1148, 0x114A, 0x1808, 0x180A, 0x1848, 0x184B, 0x18C8, 0x18CA, 0x1908, 0x190A, 0x1948, 0x194B, 0x1988, 0x198B, 0x2308, 0x230A, 0x2348, 0x234B, 0x2388, 0x238B, 0x23C8, 0x23CB
+System 0xFE00
+  services: 0x3948, 0x394B, 0x3988, 0x398B, 0x39C9
+System 0x86A7
+  services: 0x0048, 0x004B, 0x0288, 0x028B
+
+=== PRIORITY RESULT ===
+mode: transit
+balance_raw: 00 00 00 00 00 00 00 00 20 00 00 F4 01 00 00 01 |........ .......|
+balance_yen: 500
+history[0]: 12 07 02 00 32 62 00 00 00 00 F4 01 00 00 01 00 |....2b..........|
+history[1]: 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+history[2]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+
+=== DIRECT SERVICE READS ===
+Service 0x008B (Transit balance)
+  ERROR: tag command error 680 (0x2a8)
+Service 0x010B (Student ID)
+  ERROR: invalid service code number or attribute
+Service 0x090F (Transit history)
+  skipped_or_unavailable: ERROR: tag command error 65442 (0xffa2)

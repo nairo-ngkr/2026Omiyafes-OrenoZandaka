@@ -1,0 +1,13 @@
+{
+  "template": "slime",
+  "name": "スラちゃん",
+  "attribute": "ぞくせい",
+  "skill": "えがお",
+  "skill_font_size": 70,
+  "phrase": "「○○ぽよ」",
+  "phrase_font_size": 70,
+  "habitat": "もり・へいち",
+  "habitat_font_size": 70,
+  "description": "せんとうちゅう でもカメラ目線をわすれない。\nなぜか集合写真には必ず写っている。",
+  "hp": "30"
+}

@@ -1,0 +1,7 @@
+実印刷には SumatraPDF-3.6-64.exe が必要です。
+
+このフォルダに次のファイルを置いてください。
+
+SumatraPDF-3.6-64.exe
+
+既定では local_print.py / run_local_print.py がこの場所を参照します。

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scan>
+	<version>6.2.0</version>
+	<date>2026-03-31 16:19:11</date>
+	<title>Sony Corporation FeliCa RC-SA00/1 tag</title>
+	<uid nxp="false">01:12:04:12:F1:20:83:13</uid>
+	<hasndef>false</hasndef>
+	<section>
+		<subsection title="IC Manufacturer">
+			<block type="text">
+	<content>Sony Corporation</content>
+</block>
+		</subsection>
+		<subsection title="IC Type">
+			<block type="text">
+	<content>FeliCa RC-SA00/1</content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="No NDEF Data Storage Populated">
+			<block type="text">
+	<content></content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="Memory Information">
+			<block type="text">
+	<content>6 kB EEPROM
+User memory: 3984 bytes
+‣ 249 blocks, with 16 bytes per block</content>
+</block>
+		</subsection>
+		<subsection title="System Codes">
+			<block type="text">
+	<content>1 unknown System Code present<hexoutput>:
+Unknown System Code 0x8277</hexoutput></content>
+</block>
+		</subsection>
+		<subsection title="TagInfo Version">
+			<block type="text">
+	<content>Version :6.2.0</content>
+</block>
+		</subsection>
+		<subsection title="Device Info">
+			<block type="text">
+	<content>Device Model :Google ( Pixel 10 Pro )
+Android OS Version :16</content>
+</block>
+		</subsection>
+	</section>
+	<section>
+		<subsection title="Technologies Supported">
+			<block type="text">
+	<content>JIS X 6319-4 compatible</content>
+</block>
+		</subsection>
+		<subsection title="Android Technology Information">
+			<block type="text">
+	<content>Tag description:
+‣ TAG: Tech [android.nfc.tech.NfcF]
+‣ Maximum transceive length: 255 bytes
+‣ Default maximum transceive time-out: 255 ms
+<hexoutput>MIFARE Classic support present in Android</hexoutput></content>
+</block>
+		</subsection>
+		<subsection title="Detailed Protocol Information">
+			<block type="text">
+	<content>ID: 01:12:04:12:F1:20:83:13
+‣ Manufacturer code: 0x1201
+PMm: 0x033242828247AAFF
+‣ IC code: 0x0332
+	• ROM type: 0x03
+	• IC type: 0x32
+‣ Max. command response times:
+	• Req. Service: 3.62 + n*1.21 ms<hexoutput> (0x42)</hexoutput>
+	• Req. Response: 14.50 ms<hexoutput> (0x82)</hexoutput>
+	• Authenticate: 14.50 + n*4.83 ms<hexoutput> (0x82)</hexoutput>
+	• Read/Check: 9.66 + n*1.21 ms<hexoutput> (0x47)</hexoutput>
+	• Write/Update: 14.50 + n*28.99 ms<hexoutput> (0xAA)</hexoutput>
+	• Issuance command: 154.62 ms<hexoutput> (0xFF)</hexoutput>
+  ('n': no. of blocks/services)
+
+Primary System Code: 0x8277
+Advanced Protocol Features:
+‣ Automatically selectable bit rates
+‣ Supported communication rates:
+	• 212, 424 kbit/s (divisors: 2, 4)
+</content>
+</block>
+		</subsection>
+		<subsection title="Memory Content">
+			<block type="text">
+	<content>System Code 0x8277
+‣ IDm: 01:12:04:12:F1:20:83:13
+‣ Area #0: 0x0000 - 0xFFFE
+‣ Area #1: 0x0100 - 0x01FF
+‣ Area #2: 0x0200 - 0x02FF
+  • Service: 0x0108 #004 Random Access R/W     
+    ◦ Protected (no access)</content>
+</block>
+<block type="text">
+	<content>  • Service: 0x010B #004 Random Access R/O     
+</content>
+</block>
+<block>
+	<address addrwidth="4">0</address>
+	<data>30 30 32 42 52 32 33 30 32 34 30 30 30 30 30 30</data>
+</block>
+<block>
+	<address addrwidth="4">1</address>
+	<data>32 30 32 33 30 34 30 31 32 30 32 37 30 33 33 31</data>
+</block>
+<block>
+	<address addrwidth="4">2</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">3</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">4</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">5</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">6</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">7</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="text">
+	<content>  • Service: 0x0209 #008 Random Access R/W     
+</content>
+</block>
+<block>
+	<address addrwidth="4">0</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">1</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">2</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">3</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">4</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">5</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">6</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">7</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">8</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">9</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">10</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">11</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">12</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">13</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">14</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">15</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">16</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">17</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">18</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">19</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">20</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">21</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">22</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">23</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">24</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">25</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">26</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">27</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">28</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">29</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">30</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">31</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">32</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">33</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">34</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">35</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">36</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">37</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">38</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">39</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">40</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">41</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">42</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">43</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">44</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">45</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">46</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">47</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">48</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">49</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">50</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">51</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">52</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">53</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">54</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">55</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">56</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">57</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">58</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">59</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">60</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">61</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">62</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">63</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">64</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">65</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">66</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">67</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">68</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">69</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">70</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">71</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">72</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">73</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">74</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">75</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">76</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">77</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">78</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">79</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">80</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">81</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">82</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">83</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">84</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">85</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">86</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">87</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">88</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">89</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">90</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">91</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">92</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">93</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">94</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">95</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">96</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">97</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">98</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">99</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">100</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">101</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">102</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">103</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">104</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">105</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">106</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">107</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">108</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">109</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">110</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">111</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">112</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">113</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">114</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">115</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">116</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">117</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">118</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block>
+	<address addrwidth="4">119</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+<block type="text">
+	<content>  • Service: 0x0248 #009 Random Access R/W     
+    ◦ Protected (no access)</content>
+</block>
+<block type="text">
+	<content>  • Service: 0x024B #009 Random Access R/O     
+</content>
+</block>
+<block>
+	<address addrwidth="4">0</address>
+	<data>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</data>
+</block>
+		</subsection>
+	</section>
+</scan>

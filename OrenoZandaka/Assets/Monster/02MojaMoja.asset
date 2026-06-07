@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0397a1e669a7d1548be212edc8620ae2, type: 3}
+  m_Name: 02MojaMoja
+  m_EditorClassIdentifier: 
+  monsterName: "\u3082\u3058\u3083\u304A\u304F\u3093"
+  minBalance: 300
+  maxBalance: 899
+  bgPrefab: {fileID: 347903038194422954, guid: 2b1be5144fc1dd74c9ebad671c64dd77, type: 3}
+  videoClip: {fileID: 32900000, guid: 861bd9d806ed4c2458320ed2b6aaf061, type: 3}
+  monsterBgm: {fileID: 8300000, guid: cdda78be4b8e57f42bd83edde81c7d93, type: 3}

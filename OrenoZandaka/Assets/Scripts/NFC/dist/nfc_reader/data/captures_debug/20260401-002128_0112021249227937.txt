@@ -1,0 +1,25 @@
+captured_at: 2026-04-01T00:21:28
+tag_type: nfc.tag.tt3.Type3Tag
+tag_repr: Type3Tag ID=0112021249227937 PMM=053143454682B7FF SYS=0003
+tag_id: 0112021249227937
+transport: felica
+pmm: 053143454682B7FF
+
+=== SYSTEM CODES ===
+error: tag has no request_system_code()
+
+=== SERVICES ===
+
+=== PROBE TRANSIT ===
+activate 0x0003: ok
+0x008B[0]: 00 00 00 00 00 00 00 00 20 00 00 F4 01 00 00 01 |........ .......|
+parsed_balance_yen: 500
+0x090F[0]: 12 07 02 00 32 62 00 00 00 00 F4 01 00 00 01 00 |....2b..........|
+0x090F[1]: 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+0x090F[2]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+
+=== PROBE STUDENT ===
+student service not found
+
+=== FINAL JUDGEMENT ===
+priority: unknown

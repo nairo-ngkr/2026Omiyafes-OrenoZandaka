@@ -1,0 +1,104 @@
+{
+  "common": {
+    "arrow": "assets/common/arrow.png",
+    "card_badge_base": "assets/common/card_badge_base.png",
+    "logo_event": "assets/common/logo_event.png",
+    "logo_footer": "assets/common/logo_footer.png",
+    "shibalab_horizontal": "assets/common/shibalab_horizontal.png",
+    "badge_character": "assets/common/badge_character.png",
+    "badge_character_gold": "assets/common/badge_character_gold.png",
+    "suica": "assets/common/suica.png",
+    "suica_gold": "assets/common/suica_gold.png",
+    "logo_footer_white": "assets/common/logo_footer_white.png"
+  },
+  "slime": {
+    "background": "assets/templates/slime/background.png",
+    "character": "assets/templates/slime/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer.png",
+    "badge_character": "assets/common/badge_character.png"
+  },
+  "shibazou": {
+    "background": "assets/templates/shibazou/background.png",
+    "character": "assets/templates/shibazou/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer_white.png",
+    "badge_character": "assets/common/badge_character_gold.png",
+    "badge_image": "assets/common/suica_gold.png",
+    "page_background": "assets/templates/shibazou/page_background.png"
+  },
+  "gonta": {
+    "background": "assets/templates/gonta/background.png",
+    "character": "assets/templates/gonta/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer_white.png",
+    "badge_character": "assets/common/badge_character.png",
+    "badge_image": "assets/common/suica.png"
+  },
+  "kukuros": {
+    "background": "assets/templates/kukuros/background.png",
+    "character": "assets/templates/kukuros/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer_white.png",
+    "badge_character": "assets/common/badge_character.png",
+    "badge_image": "assets/common/suica.png"
+  },
+  "nurunurun": {
+    "background": "assets/templates/nurunurun/background.png",
+    "character": "assets/templates/nurunurun/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer_white.png",
+    "badge_character": "assets/common/badge_character.png",
+    "badge_image": "assets/common/suica.png"
+  },
+  "patasan": {
+    "background": "assets/templates/patasan/background.png",
+    "character": "assets/templates/patasan/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer.png",
+    "badge_character": "assets/common/badge_character.png"
+  },
+  "peka_pika": {
+    "background": "assets/templates/peka_pika/background.png",
+    "character": "assets/templates/peka_pika/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer.png",
+    "badge_character": "assets/common/badge_character.png"
+  },
+  "mojaokun": {
+    "background": "assets/templates/mojaokun/background.png",
+    "character": "assets/templates/mojaokun/character.png",
+    "event_logo": "assets/common/logo_event.png",
+    "footer_logo": "assets/common/logo_footer.png",
+    "badge_character": "assets/common/badge_character.png"
+  },
+  "hashes": {
+    "583e8127164c8a35349af6d8748d993e9fade3a820254cd5f013cde1f401f337": "assets/common/arrow.png",
+    "3c329fce4e21268f880a7eb64e4fd1b4369d884195cb96e336368ab3a51bada3": "assets/common/badge_character_gold.png",
+    "9ff28da1971a4fc202d8e349bf47056600734aad584d0a1b390c7e6f95d77ea7": "assets/common/card_badge_base.png",
+    "1892c4fabd480e06d57489196470c39137d6f4df03de1f3914f13447496947d9": "assets/common/logo_event.png",
+    "e5ee5b0fadf6d30d71ecc4ee0fcbc99c1884fa28ea1f84024fe5b419fd3939dc": "assets/common/logo_footer.png",
+    "1ecfbe83cbf6c311aa85143aa4e1ceb605828d36e5e377ddb88a09bb6578ce73": "assets/common/logo_footer_white.png",
+    "f189a2c86c978cb3a0aec05781bf5c125b8c0229f7df0bf1543a76928b371740": "assets/common/shibalab_horizontal.png",
+    "d8dda3cf0763d1d50f674016aea9ffad52163482c9a53244ef2f9bf0cac3dd27": "assets/common/suica.png",
+    "578e78e02559f1bb32dd03b54574218dc03a31b21703ad47f790698617b55a32": "assets/common/suica_gold.png",
+    "86b2d99419b361307941ae287485f70d5aee391e5f2795d2038e13485e88e147": "assets/templates/gonta/background.png",
+    "fc76c7d159d982fd5bc58ff1bf4c0d632b8708b99f0ae0e55481429e7082046d": "assets/templates/gonta/character.png",
+    "a6d52ce002d3845cee2d68a26f741c148e7848aaf6abb60cb6d65e5eb5a26061": "assets/templates/kukuros/background.png",
+    "ea88e311992fc062c47790d584f0555c68bb7d7544863f0cad62daa58fe3f526": "assets/templates/kukuros/character.png",
+    "2e3bed0f9059cc25aaf8e078ea4fa9e9d9c56c9028715faf7d1e5808f5256bc1": "assets/templates/mojaokun/background.png",
+    "d6457ca043ee872a1cb9f34f8717bf73e8c12d543239ffc3d6700980a1b869a9": "assets/templates/mojaokun/character.png",
+    "7cb250e319d9cffed24b753013de5d5b4f3cfe83f2fb9cbad003137b142967f0": "assets/templates/nurunurun/background.png",
+    "08060a583cc51be4587c138c9f791d0b3d72403a4b286254fb166fb0ddf080c4": "assets/templates/nurunurun/character.png",
+    "c535e280b96f1673bf8cb7208c083d5813386ef679ddee1b92756239fa347e84": "assets/templates/patasan/background.png",
+    "6ff36b6650a4ad52fd975d02d77354a315152b0a3dba56ef65b0f205ff37d18f": "assets/templates/patasan/character.png",
+    "7ec1e343470aaab5bf059d6ffc7689c68f1db8f9c4c6857a20ce6dff06c5361e": "assets/templates/peka_pika/background.png",
+    "fa8a0aa63b51777939319159b1d0752ae44041acc4ca0b7fbfed9092898a3b1c": "assets/templates/peka_pika/character.png",
+    "8086c801415f57824a7b58e58084eab537c7d944743ef8ac88994cfe773947e2": "assets/templates/shibazou/background.png",
+    "f45c450990c654839739c097bea7dea5347e01d02a01c01fb111484aa3507c46": "assets/templates/shibazou/character.png",
+    "04e3390e1b45d394747fff06b97c8eb78da1cecca3cd7a09202ca5ae8b6e9de1": "assets/templates/shibazou/page_background.png",
+    "d67e2f5c2928d5d2faa9bb36218b34711d8b479d31c8c938c0c8243325a2b9be": "assets/templates/slime/background.png",
+    "f78773cc100706f302f72e653807c136de59b39c611e2bfa9c860931ced733df": "assets/templates/slime/badge_character.png",
+    "99525ade73c1a15e400bad359e1086106009107f1858be5fa96638be70a59e41": "assets/templates/slime/character.png"
+  }
+}
