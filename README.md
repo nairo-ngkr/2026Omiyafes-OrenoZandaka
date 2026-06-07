@@ -1,6 +1,6 @@
 <h1 align="center">2026年大宮祭（ShibaLab）</h1>
 
- ![TitleLogo]()
+ ![TitleLogo](https://github.com/nairo-ngkr/2026Omiyafes-OrenoZandaka/blob/main/OrenoZandaka/Assets/Images/2026%E5%A4%A7%E5%AE%AE%E7%A5%AD%E3%83%AD%E3%82%B4-4.png)
 
 <h2 align="center">
 俺のICカードの残高が、異世界では最強の魔力だった件<br>
