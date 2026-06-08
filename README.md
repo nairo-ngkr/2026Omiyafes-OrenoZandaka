@@ -44,13 +44,13 @@
 
 <p align="center">
 <img alt="WaitingScreen" src="https://github.com/user-attachments/assets/051ad010-b630-4f19-925a-a67f8ff1ff96" width="25%">
- &nbsp;&nbsp;
+ &nbsp;
 <img alt="ペカ&ピカ" src="https://github.com/nairo-ngkr/2026Omiyafes-OrenoZandaka/blob/main/PlayPhotos%26Video/%E3%83%9A%E3%82%AB%26%E3%83%94%E3%82%AB.jpg" width="45%">
- &nbsp;&nbsp;
+ &nbsp;
 <img alt="ごんた" src="https://github.com/nairo-ngkr/2026Omiyafes-OrenoZandaka/blob/main/PlayPhotos%26Video/%E3%81%94%E3%82%93%E3%81%9F.jpg" width="25%">
  
 <img alt="カード" src="https://github.com/nairo-ngkr/2026Omiyafes-OrenoZandaka/blob/main/PlayPhotos%26Video/%E3%82%AB%E3%83%BC%E3%83%89.jpg" width="45%">
- &nbsp;&nbsp;
+ &nbsp;
 <img alt="Ending(合計)" src="https://github.com/nairo-ngkr/2026Omiyafes-OrenoZandaka/blob/main/PlayPhotos%26Video/EndingResult.png" width="50%">
 </p>
  
